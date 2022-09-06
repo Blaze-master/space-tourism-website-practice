@@ -43,7 +43,13 @@ ul{
 
 li{
     display: block;
-    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 0px;
+    padding-bottom: calc(2rem - 3px);
+}
+
+#home{
+    border-bottom: 3px solid white;
 }
 
 main{
