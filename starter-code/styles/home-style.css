@@ -6,13 +6,16 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
 }
 
 body{
     background: url("/starter-code/assets/home/background-home-desktop.jpg") no-repeat;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 header{
@@ -35,10 +38,64 @@ nav img{
 ul{
     display: flex;
     backdrop-filter: blur(30px);
-    padding: 0px 8rem 0px 5rem;
+    padding: 0px 6rem 0px 4rem;
 }
 
 li{
     display: block;
     padding: 2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: calc(100% - 15rem);
+    padding-top: 8rem;
+}
+
+article{
+    width: 50%;
+    padding: 3rem;
+}
+
+article span{
+    display: block;
+}
+
+#text-m{
+    font-size: 1.5rem;
+}
+
+#text-xl{
+    font-size: 9rem;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+#text-s{
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    width: 26rem;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 100%;
+    height: 14rem;
+    width: 14rem;
+    margin-top: 2rem;
+}
+
+aside div{
+    color: black;
+    font-size: 1.6rem;
+    font-family: serif;
+    letter-spacing: 0.2rem;
 }
