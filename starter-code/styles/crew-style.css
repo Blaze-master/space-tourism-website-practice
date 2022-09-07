@@ -55,6 +55,10 @@ button{
     background-color: grey;
 }
 
+button:hover{
+    background-color: white;
+}
+
 .selected{
     background-color: white;
 }
