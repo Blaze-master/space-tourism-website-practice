@@ -1,0 +1,80 @@
+nav{
+    position: relative;
+    z-index: 1;
+}
+
+main{
+    padding-top: 0px;
+    height: 80%;
+}
+
+article{
+    padding-top: 1rem;
+}
+
+article div{
+    padding-bottom: 8rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+#text-m{
+    font-family: serif;
+    margin-bottom: 1rem;
+}
+
+#text-xl{
+    font-size: 5rem;
+}
+
+#text-s{
+    width: 80%;
+}
+
+article ul{
+    backdrop-filter: none;
+    padding: 0px;
+    height: 30px;
+    margin-top: 8rem;
+}
+
+article li{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 2rem;
+    height: 15px;
+    width: 15px;
+}
+
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.selected{
+    background-color: white;
+}
+
+aside{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 100%;
+    width: 20%;
+    height: 100%;
+    margin-top: 0rem;
+}
+
+aside img{
+    position: relative;
+    bottom: 0rem;
+    width: 170%;
+    z-index: 0;
+}
