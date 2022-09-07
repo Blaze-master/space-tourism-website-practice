@@ -48,7 +48,7 @@ li{
     padding-bottom: calc(2rem - 3px);
 }
 
-#home{
+.active{
     border-bottom: 3px solid white;
 }
 
