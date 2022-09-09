@@ -43,7 +43,7 @@ article button{
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: lightgrey;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 article button:hover{

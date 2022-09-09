@@ -14,6 +14,7 @@ h3 span{
 
 main{
     align-items: center;
+    justify-content: space-evenly;
     padding-top: 2rem;
 }
 
@@ -21,11 +22,61 @@ article{
     display: flex;
     width: 60%;
     overflow: hidden;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.btns button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 2px solid gray;
+    background: none;
+    font-family: serif;
+    font-size: 2rem;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns button:hover{
+    background-color: white;
+    color: black;
+}
+
+.btns .selected{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+article div span{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: lightgrey;
+}
+
+#text-xl{
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+#text-s{
+    width: 80%;
+    text-transform: none;
 }
 
 aside{
     width: 40%;
     background: none;
+    justify-self: right;
     justify-content: right;
 }
 
