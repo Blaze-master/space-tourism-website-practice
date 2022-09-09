@@ -1,11 +1,11 @@
 let jsonData
 fetch("data.json").then(response => {return response.json()}).then(data =>{jsonData = data})
+
+let crew_btns = document.querySelectorAll(".crew-tab")
 let crewname = document.querySelector(".crewname")
 let crewrole = document.querySelector(".crewrole")
 let crewinfo = document.querySelector(".crewinfo")
 let crewimage = document.querySelector(".crewimage")
-
-let crew_btns = document.querySelectorAll(".crew-tab")
 for (let i = 0; i < crew_btns.length; i++) {
     const element = crew_btns[i];
     element.addEventListener("click", function (e){
@@ -21,8 +21,8 @@ for (let i = 0; i < crew_btns.length; i++) {
     })   
 }
 
-let dest_btns = document.querySelectorAll(".dest-tab")
 
+let dest_btns = document.querySelectorAll(".dest-tab")
 let dest_name = document.querySelector(".destname")
 let dest_info = document.querySelector(".destinfo")
 let dest_image = document.querySelector(".destimage")
@@ -41,5 +41,24 @@ for (let i = 0; i < dest_btns.length; i++) {
             btn.className = "dest-tab"
         });
         element.className = "dest-tab selected"
+    })
+}
+
+
+let tech_btns = document.querySelectorAll(".tech-tab")
+let tech_name = document.querySelector(".techname")
+let tech_info = document.querySelector(".techinfo")
+let tech_image = document.querySelector(".techimage")
+
+for (let i = 0; i < tech_btns.length; i++) {
+    const element = tech_btns[i];
+    element.addEventListener("click", function (e){
+        tech_name.innerText = jsonData.technology[i].name
+        tech_info.innerText = jsonData.technology[i].description
+        tech_image.setAttribute("src", jsonData.technology[i].images.portrait)
+        tech_btns.forEach(btn => {
+            btn.className = "tech-tab"
+        });
+        element.className = "tech-tab selected"
     })
 }
