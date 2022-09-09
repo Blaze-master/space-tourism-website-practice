@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/home-style.css">
+  <link rel="stylesheet" href="./styles/destination-style.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="/starter-code/assets/shared/logo.svg" alt="">
+      <ul>
+        <li><a href="index.html"><strong>00 </strong>Home</a></li>
+        <li class="active"><a href="destination.html"><strong>01</strong> Destination</a></li>
+        <li><a href="crew.html"><strong>02</strong> Crew</a></li>
+        <li><a href="technology.html"><strong>03</strong> Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h3><span>01</span>  Pick your destination</h3>
+  <main>
+    <article>
+        <ul>
+            <li><button id="c1" class="dest-tab">Moon</button></li>
+            <li><button id="c2" class="dest-tab selected">Mars</button></li>
+            <li><button id="c3" class="dest-tab">Europa</button></li>
+            <li><button id="c4" class="dest-tab">Titan</button></li>
+        </ul>
+        <div>
+          <span id="text-xl" class="name">Mars</span>
+          <span id="text-s" class="info">
+            Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+            the tallest planetary mountain in our solar system. It’s two and a half times 
+            the size of Everest!
+          </span>
+          <br>
+          <div>
+            <div><span>Avg. distance</span>225 mil. km</div>
+            <div><span>Est. travel time</span>9 months</div>
+          </div>
+        </div>
+    </article>
+    <aside><img src="/starter-code/assets/destination/image-mars.png" alt="" class="image"></aside>
+  </main>
+</body>
+</html>
+<script src="main.js"></script>
