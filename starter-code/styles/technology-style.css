@@ -1,0 +1,34 @@
+h3{
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+h3 span{
+    color: grey;
+    display: inline;
+    font-weight: lighter;
+}
+
+main{
+    align-items: center;
+    padding-top: 2rem;
+}
+
+article{
+    display: flex;
+    width: 60%;
+    overflow: hidden;
+}
+
+aside{
+    width: 40%;
+    background: none;
+    justify-content: right;
+}
+
+aside img{
+    width: 75%;
+}
