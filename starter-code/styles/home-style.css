@@ -31,6 +31,15 @@ nav{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
 nav img{
     margin-left: 4rem;
 }
@@ -63,6 +72,7 @@ main{
 article{
     width: 50%;
     padding: 3rem;
+    padding-left: 2rem;
 }
 
 article span{
