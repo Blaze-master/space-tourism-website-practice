@@ -1,0 +1,64 @@
+h3{
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+h3 span{
+    color: grey;
+    display: inline;
+    font-weight: lighter;
+}
+
+main{
+    flex-direction: row-reverse;
+    padding-top: 0px;
+}
+
+article{
+    width: 50%;
+    padding: 2rem;
+    margin-left: 10%;
+}
+
+article ul{
+    backdrop-filter: none;
+    padding: 0px;
+    margin-bottom: 2rem;
+}
+
+article li{
+    margin: 0px;
+    padding: 0px;
+}
+
+article button{
+    background: none;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: lightgrey;
+}
+
+.selected{
+    border-bottom: 3px solid white;
+}
+
+#text-s{
+    width: 60%;
+}
+
+aside{
+    width: 50%;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside img{
+    width: 50%;
+}
