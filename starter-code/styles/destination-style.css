@@ -74,14 +74,15 @@ hr{
 }
 
 .details div{
-    font-size: 2rem;
+    font-size: 1.25rem;
+    color: lightgray;
     text-transform: uppercase;
+    
 }
 
 .details span{
-    font-size: 1.25rem;
-    padding-bottom: 0.5rem;
-    color: lightgray;
+    font-size: 2rem;
+    padding-top: 0.5rem;
 }
 
 aside{
